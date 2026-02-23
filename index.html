@@ -1,0 +1,135 @@
+<!-- Hero -->
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <h1>Lo Mejor para Tu Mejor Amigo</h1>
+        <p>Accesorios de calidad para perros felices</p>
+        <a href="#productos" class="btn btn-primary">Ver Productos</a>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+    <div class="feature">
+        <div class="feature-icon">🚚</div>
+        <h4>Envío Gratis</h4>
+        <p>En pedidos mayores a $50</p>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">↩️</div>
+        <h4>Devolución 30 días</h4>
+        <p>Sin preguntas</p>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">✅</div>
+        <h4>Calidad Garantizada</h4>
+        <p>Productos premium</p>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">💬</div>
+        <h4>Soporte 24/7</h4>
+        <p>Siempre atentos</p>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories" id="categorias">
+    <div class="section-title">
+        <h2>Categorías</h2>
+    </div>
+    <div class="categories-grid">
+        <div class="category-card" onclick="filterProducts('collares')">
+            <div class="category-icon">📿</div>
+            <h3>Collares</h3>
+        </div>
+        <div class="category-card" onclick="filterProducts('correas')">
+            <div class="category-icon">🦮</div>
+            <h3>Correas</h3>
+        </div>
+        <div class="category-card" onclick="filterProducts('camas')">
+            <div class="category-icon">🛏️</div>
+            <h3>Camas</h3>
+        </div>
+        <div class="category-card" onclick="filterProducts('juguetes')">
+            <div class="category-icon">🎾</div>
+            <h3>Juguetes</h3>
+        </div>
+        <div class="category-card" onclick="filterProducts('ropa')">
+            <div class="category-icon">👕</div>
+            <h3>Ropa</h3>
+        </div>
+        <div class="category-card" onclick="filterProducts('comedores')">
+            <div class="category-icon">🥣</div>
+            <h3>Comedores</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="products" id="productos">
+    <div class="section-title">
+        <h2>Nuestros Productos</h2>
+    </div>
+    <div class="products-grid" id="productsGrid">
+        <!-- Products inserted by JS -->
+    </div>
+</section>
+
+<!-- Promo -->
+<section class="promo">
+    <h2>🔥 Oferta especial: 20% de descuento en ropa para perros</h2>
+    <p>Usa el código: PATITAS20</p>
+    <br>
+    <a href="#productos" class="btn btn-primary">Ver Ropa</a>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <div class="section-title">
+        <h2>Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <p class="testimonial-text">"Mis perros aman sus nuevas camas. La calidad es excelente y el envío fue muy rápido."</p>
+            <p class="testimonial-author">- Ana Martínez</p>
+        </div>
+        <div class="testimonial-card">
+            <p class="testimonial-text">"La mejor tienda de accesorios para mascotas. Siempre encuentro cosas únicas para mi Bulldog."</p>
+            <p class="testimonial-author">- Carlos Rodríguez</p>
+        </div>
+        <div class="testimonial-card">
+            <p class="testimonial-text">"Excelente atención al cliente. Me ayudaron a elegir el collar perfecto para mi cachorro."</p>
+            <p class="testimonial-author">- Laura Sánchez</p>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+    <h2>📧 Suscríbete a nuestro boletín</h2>
+    <p>Recibe ofertas exclusivas y consejos para tu mascota</p>
+    <br>
+    <form onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+        <input type="email" placeholder="Tu correo electrónico" required>
+        <button type="submit" class="btn btn-primary">Suscribirse</button>
+    </form>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contacto">
+    <div class="section-title">
+        <h2>Contáctanos</h2>
+    </div>
+    <div class="contact-grid">
+        <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <h3>Dirección</h3>
+            <p>Av. Mascotas 123<br>Ciudad de los Perros</p>
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <h3>Teléfono</h3>
+            <p>+1 234 567 890</p>
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <h3>Email</h
